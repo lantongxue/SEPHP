@@ -52,6 +52,11 @@ class SEPHP
 class App
 {
     /**
+     * @var string 框架版本
+     */
+    public static $version = "1.0";
+
+    /**
      * @var Config 框架全局配置
      */
     public static $config = null;
