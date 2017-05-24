@@ -1,5 +1,5 @@
 <?php
-include dirname(__FILE__)."/framework/sephp.php";
+include dirname(__FILE__) . "/framework/sephp.php";
 
 $config = array(
   "app_name" => "Sample",
