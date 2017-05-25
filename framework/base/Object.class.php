@@ -2,7 +2,7 @@
 namespace base;
 class Object extends \stdClass
 {
-    public function getInstance()
+    public static function getInstance()
     {
         return self;
     }
